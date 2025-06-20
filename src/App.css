@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  padding: 4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+form {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.form-input {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 2px solid #e1e5e9;
+  border-radius: 4px;
+  flex: 0.5;
+  min-width: 40px;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+form button {
+  font-family: inherit;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding-inline: 2rem;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.to-do-tasks {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem auto;
+}
+
+.to-do-tasks h6 {
+  font-size: 2rem;
+}
+
+.to-do-tasks > * {
+  width: 50%;
+}
